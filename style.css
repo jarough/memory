@@ -1,19 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: white;
-    color: black;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: blanchedalmond;
+
 }
 
-h1 {
-    text-align: center;
-    font-size: 50px;
-    font-weight: bold;
+.card {
+    width: 100px;
+    aspect-ratio: 1/1;
+    position: relative;
+    perspective: 500px;
+    transform-style: preserve-3d;
+    cursor: pointer;
 }
 
-p {
-    text-align: center;
-    font-size: 25px;
+.cardgrid {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    gap: 15px;
 }
 
-img {
-    width: 10%;
+.card img {
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+    position: absolute;
+    transition: 0.5s;
+    backface-visibility: hidden;
+    border: 3px solid lime;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.247);
 }
+
+.front {
+    transform: rotateY(200deg);
+}
+
+.back, .cardflip .front {
+    transform: rotateY(0deg);
+}
+
+.cardflip .back {
+    transform: rotateY(-180deg);
+}
+

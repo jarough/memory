@@ -39,6 +39,7 @@ The developer goals are the same in the way of creating an engaging game that th
 
 
 ### Wireframes
+desktop wireframe - (assets/desktop.png)
 
 
 ## Features
@@ -68,6 +69,7 @@ The developer goals are the same in the way of creating an engaging game that th
 
     
 ### Bugs
+card boxes kept resizing on hover, fixed with border box in css
 
 
 ## Deployment
@@ -77,5 +79,9 @@ The developer goals are the same in the way of creating an engaging game that th
 
 ### Content & Media
 <a href="https://www.vecteezy.com/free-vector/playing-card-symbols-vector">Playing Card Symbols Vector Vectors by Vecteezy</a>
-  
+
+w3schools border box
+https://uxwing.com/question-mark-sign-icon/
+Image by <a href="https://pixabay.com/users/clker-free-vector-images-3736/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=48978">Clker-Free-Vector-Images</a> from <a href="https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=48978">Pixabay</a>
+
 ### Code
