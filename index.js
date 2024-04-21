@@ -1,10 +1,11 @@
+// variables
 const Card = document.querySelectorAll(".cell")
 const Front = document.querySelectorAll(".front")
 const Score = document.querySelector(".score span")
 const Container = document.querySelector(".container")
 
 
-
+// card randomiser function
 function changeImage() {
 
     Card.forEach(a => {
@@ -18,7 +19,7 @@ function changeImage() {
 changeImage()
 Click()
 
-
+// function for turning cards
 function Click() {
     for (let i = 0; i < Card.length; i++) {
 
@@ -45,7 +46,7 @@ function Click() {
         })
     }
 }
-
+// check for match function
 function Match(Card1, Card2) {
 
     if (Card1.dataset.index == Card2.dataset.index) {
