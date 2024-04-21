@@ -114,13 +114,23 @@ My initial wireframes kept a very simple look to the site and game which has bee
 ### Site Checks
 
 #### W3C CSS Validation
+![](assets/cssvalidate.png)
+<p>
+    <a href="https://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="https://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+      
 
 #### W3C HTML Validation
+![](assets/htmlcheck.png)
 
-#### JSLint Validation
-
+#### JSHint Validation
+![](assets/jsvalidate.png)
 #### Google Dev Tools Lighthouse
-
+![](assets/lighthouse.png)
     
 ### Bugs
 * N/A
